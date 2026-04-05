@@ -1,8 +1,8 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
-  @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+  font-family:"Inter", sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 }
 .header {
   width: 1318px;
@@ -32,27 +32,27 @@
   display: flex;
   padding: 0 25px;
 }
-.nav {
+.navbar {
   display: flex;
   flex-direction: row;
   gap: 25px;
   color: black;
 }
-.icons {
+.navbar-logos {
   display: flex;
   flex-direction: row;
   padding: 0 25px;
   gap: 10px;
 }
-.info {
+.hero {
   height: 500px;
   display: flex;
   flex-direction: column;
   /* justify-content: space-between;
   align-items: center; */
 }
-.intro {
-  background-image: url("./assets/bannerGirl.png"), url("./assets/bg.png");
+.container {
+  background-image: url("./pictures /bannerGirl.png"), url("./pictures /bg.png");
   width: 1318px;
   height: 550px;
   background-size: 450px, cover;
@@ -61,7 +61,7 @@
     right bottom,
     center;
 }
-.highlight {
+.cards {
   width: 1318px;
   display: flex;
   flex-direction: row;
@@ -70,7 +70,7 @@
   gap: 20px;
   padding: 0 150px;
 }
-.feature-box {
+.cards-box {
   width: 60%;
   height: 100px;
   background-color: #f1b7b7;
@@ -82,7 +82,7 @@
   border-radius: 10px;
   padding: 50px;
 }
-.feature-box strong {
+.cards-box strong {
   font-size: 2rem;
   color: #ec6c5a;
 }
@@ -90,10 +90,10 @@
   background-color: #4cc082;
   color: white;
 }
-.feature-box p {
+.cards-box p {
   color: white;
 }
-.info {
+.hero {
   /* width: 420px; */
   display: flex;
   flex-direction: row;
@@ -101,7 +101,7 @@
   align-items: center;
   padding: 0 30px;
 }
-.intro-text {
+.container-text {
   height: 300pxpx;
   width: 70%;
   display: flex;
@@ -109,7 +109,7 @@
   gap: 10px;
   padding: 30px 120px;
 }
-.intro-text p {
+.container-text p {
   font-size: 5rem;
 }
 .search-btn {
@@ -168,7 +168,7 @@
   border: none;
   cursor: pointer;
 }
-.cate {
+.category {
   width: 1318px;
   /* border-top: 1.5px solid gray; */
   display: flex;
@@ -178,7 +178,7 @@
   padding: 40px 150px;
   gap: 20px;
 }
-.cate-box#one {
+.category-box#one {
   width: 30%;
   height: 500px;
   display: flex;
@@ -187,7 +187,7 @@
   align-items: center;
   gap: 20px;
 }
-.cate-box#two {
+.category-box#two {
   width: 30%;
   height: 500px;
   display: flex;
@@ -195,7 +195,7 @@
   justify-content: center;
   align-items: center;
 }
-.cate-box#three {
+.category-box#three {
   width: 30%;
   height: 500px;
   display: flex;
@@ -204,7 +204,7 @@
   align-items: center;
   gap: 20px;
 }
-.cate-box#four {
+.category-box#four {
   width: 30%;
   height: 500px;
   display: flex;
@@ -301,10 +301,10 @@
   padding: 30px;
   border-radius: 10px;
 }
-.cate p {
+.category p {
   color: #31333a;
 }
-.section-title {
+.courses-title {
   width: 1318px;
   display: flex;
   flex-direction: column;
